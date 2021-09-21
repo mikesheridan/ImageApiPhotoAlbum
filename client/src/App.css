@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  padding-top: 9.5rem;
+  padding-bottom: 0;
+}
+p {
+  margin: 1.5 rem 0;
+}
+p.p__note {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+hr {
+  margin: 1.5rem 0;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #008000;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #005a7a;
+  font-size: 2rem;
+  margin-bottom: 1.5rem
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #014E71; /* Color: $primary-blue*/
+  margin-bottom: 1rem
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #008000;
+  margin-bottom: .7rem;
+}
+h1.white, h2.white, h3.white, h4.white, h5.white {
+  color:#fff; /* Color: $white */
+  text-shadow: 3px 2px #666;
+}
+h2.white a:hover {
+  text-decoration: none;
+}
+h1.white a, h2.white a, h3.white a, h4.white a, h5.white a {
+  color:#fff; /* Color: $white */
+  text-shadow: 3px 2px #666;
+}
+.phoneNumContainer {
+  white-space: nowrap;
+}
+
+.App {
+  margin: 0;
+}
+.row .eight {
+  padding-bottom: 40px;
+}
+
+.App-main {
+  text-align: left;
+  width: 100%;
+  margin: 2rem auto 0 auto;
+}
+.clear {
+  clear: both;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  margin: 0.7rem 0;
+  display: inline-block;
+  border: 1px solid #777;
+  border-radius: 3rem;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.7rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.btn__right {
+  text-align: right;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+}
+
+.btn-green {
+  background-color: #25783c;
+  color: #fff;
+}
+/* Right hand column assets*/
+.right_hand_asset {
+  margin-bottom: 2rem;
+}
+.burgers_served {
+  border: 1px solid #ccc;
+  background-color: #fbfbfb;
+  text-align: center;
+  padding: 0.7rem;
+}
+.contact_box {
+  padding: 0.7rem;
+}
+
+/* Skeleton Modification */
+
+input, textarea, select, fieldset {
+  margin-bottom: 1rem;
+}
+div.wide {
+  width:100%;
+  max-width:100%;
+}
+
+/* -------------------------------------------------------------------------------------
+MEDIA QUERIES BELOW
+----------------------------------------------------------------------------------------*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  h1 {
+    margin-top: 1rem;
+  }
+  div.hours {
+    display:none;
+  }
+  div.phone {
+    display:none;
+  }
+  .App-nav {
+    margin: 1rem 2.5rem 0 0;
+  }
+  .App-nav li {
+    padding: 1.2rem .2rem;
+    margin: 0 .3rem;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  /* Show or hide the hours in the header based on size */
+  div.hours {
+    display:inline-block;
+  }
+  div.phone {
+    display:inline-block;
+  }
+  .App-nav {
+    margin: 1rem 5rem 0 0;
+  }
+  .App-nav li {
+    padding: 1.2rem .2rem;
+    margin: 0 1.2rem;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}
+
+/* App.css */
+
+/* 
+SCSS
+
+// old and busted colors
+$primary-green: #25783C;$secondary-green: #00B841;$primary-blue: #005A7A;$secondary-blue: #009A8F;
+
+// new and fantastic colors
+$primary-green: #017244;
+$secondary-green: #3F8A24;
+$alt-green: #AAC2B3;
+
+$primary-blue: #014E71;
+$secondary-blue: #016EA7;
+$alt-blue: #0192C6;
+$bosporus: #015D75;
+
+$neutral-light: #EDEAE0;
+$neutral-dark: #C1A485;
+$highlight: #C6B836;
+$alert: #D66972;
+
+*/

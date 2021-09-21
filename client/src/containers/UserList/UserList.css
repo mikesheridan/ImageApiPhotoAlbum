@@ -1,0 +1,18 @@
+.listTable {
+    border-collapse: collapse;
+    margin:20px;
+}
+ .listTable td, .listTable th {
+    border:1px solid #666;
+    padding: 10px;
+    width:14.28%;
+}
+.listTable td {
+    text-transform: capitalize;
+    margin: 0 8px;
+    vertical-align: top;
+}
+
+.listTable th {
+    text-align: center;
+}

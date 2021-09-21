@@ -1,0 +1,29 @@
+
+.App-footer {
+    position:static;
+    bottom: 0px;
+    left:0px;
+    width:100%;
+    min-height: 3.5rem;
+    background-color: #EDEAE0; /* Color: $$neutral-light */
+    text-align: left;
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    margin: 0;    
+  }
+  .App-footer h3 {
+    margin:0 0 1rem 0;
+    color:#014E71; /* Color: $primary-blue */
+  }
+  .App-footer li {
+    margin:0;
+    padding:0 0 0 1rem;
+  }
+  
+  .App-footer a.active {
+    border-bottom:1px solid;
+  }
+
+  .App-footer .copyright {
+    text-align: center;
+  }
